@@ -1,0 +1,19 @@
+# .NET build output
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Frontend dependencies and build output
+ecommerce-ui/node_modules/
+ecommerce-ui/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+appsettings.Development.json
+
+# IDE files
+.vs/
+.vscode/
+.idea/
